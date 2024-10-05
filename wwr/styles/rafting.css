@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #20944E;    
+    --secondary-color: #EE8834;  
+    --accent-color: #ffffff;      
+    --background-color: #f5f5dc;  
+    --text-color: #000000;        
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+p {
+    line-height: 1.6;
+    /* margin-bottom: 15px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .hero {
+    position: relative;
+} */
+
+.hero {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.hero img {
+    /* display: block; */
+    width: 100%;
+    height: auto;
+}
+
+
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #00000070;
+    padding: 10px 0px;                   
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    color: var(--accent-color);
+}
+
+.hero article {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    padding: 20px;
+    width: 75%;
+    /* transform: translateX(-50%); */
+    background-color: #00000063;
+
+}
+
+.hero article p {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    max-width: 40%;
+    height: auto;
+}
