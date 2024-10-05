@@ -10,7 +10,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,24 +21,25 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     line-height: 1.6;
-    /* margin-bottom: 15px; */
 }
 
 a {
     text-decoration: none;
 }
 
-/* .hero {
-    position: relative;
-} */
-
 .hero {
     position: relative;
-    /* overflow: hidden; */
+}
+
+section img {
+    display: block;
+    width: 750px;
+    height: auto;
+    padding: 10px 0;
 }
 
 .hero img {
-    /* display: block; */
+    display: block;
     width: 100%;
     height: auto;
 }
