@@ -10,7 +10,39 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    width: 75px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    flex: 1 1 100%;
+    display: block;
+    color: #20944E;
     padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #EE8834;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,7 +115,63 @@ section img {
     height: auto;
 }
 
+.history {
+    display: block;
+    text-align: center;
+}
+
+.history h2 {
+    font-weight: 700;
+}
+
+.history p {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.adventure {
+    display: block;
+    text-align: center;
+}
+
+.adventure h2 {
+    font-weight: 700;
+}
+
+.adventure-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adventure-image figure {
+    text-align: center;
+}
+
+figure img {
+    width: 180px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20944E;
+}
+
+footer p {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+}
+
 footer nav a img {
-    width: 50px;
+    width: 24px;
     height: auto;
+}
+
+.sociallinks {
+    display: flex;
+    /* width: 75px; */
+    /* gap: 5px; */
 }
