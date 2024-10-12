@@ -124,9 +124,23 @@ section img {
     font-weight: 700;
 }
 
-.history p {
+.history-body p {
+    flex: 1;
     text-align: justify;
     line-height: 2rem;
+}
+
+.history-body {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 20px;
+}
+
+.history-body img {
+    max-width: 300px;
+    width: 100%;
+    height: auto; 
 }
 
 .adventure {
