@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #20944E;    
-    --secondary-color: #EE8834;  
+    --primary-color: #005A24;    
+    --secondary-color: #C25700;  
     --accent-color: #ffffff;      
-    --background-color: #f5f5dc;  
+    --background-color: #ffffff;  
     --text-color: #000000;        
 }
 
@@ -34,13 +34,13 @@ nav {
 nav a {
     flex: 1 1 100%;
     display: block;
-    color: #20944E;
+    color: #005A24;
     padding: 20px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #EE8834;
+    color: #C25700;
     font-weight: 700;
     text-decoration: underline;
 }
@@ -156,13 +156,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #20944E;
+    background-color: #006633;
 }
 
 footer p {
     flex-grow: 1;
     text-align: center;
     margin: 0;
+    color: #ffffff;
 }
 
 footer nav a img {
